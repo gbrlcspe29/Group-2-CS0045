@@ -37,3 +37,20 @@ void triangle(){
 	glDrawArrays(GL_TRIANGLES, 0, 3);
 	glDisableClientState(GL_VERTEX_ARRAY);
 }
+
+//Buama
+void points(){
+	glPointSize(20.0);
+	
+	GLfloat pointVertex[] = {
+	-0.75f, -0.75f, 0.0f,
+	-0.75f, 0.75f, 0.0f,
+	0.75f, 0.75f, 0.0f,
+	0.75f, -0.75f, 0.0f
+	};
+	
+	glEnableClientState(GL_VERTEX_ARRAY);
+	glVertexPointer(3, GL_FLOAT, 0, pointVertex);
+	glDrawArrays(GL_POINTS, 0, 4);
+	glDisableClientState(GL_VERTEX_ARRAY);
+}
