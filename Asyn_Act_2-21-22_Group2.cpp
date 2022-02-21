@@ -8,3 +8,17 @@ using namespace std;
 void Render1();
 void display();
 void points();
+
+
+//Cordero
+int main(int argc, char **argv){
+
+	glutInit(&argc, argv);
+	glutInitWindowSize(500,350);
+	glutInitWindowPosition(200,50);
+	glutCreateWindow("My First OpenGL");
+	glutDisplayFunc(display);
+	glutMainLoop();
+
+	return 0;
+}
