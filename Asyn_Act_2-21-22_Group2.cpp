@@ -22,3 +22,18 @@ int main(int argc, char **argv){
 
 	return 0;
 }
+
+//Cutaran
+void triangle(){
+	GLfloat triangleVertex[] = {
+		//x		y	   z
+		0.0f, 0.75f, 0.0f,
+		-0.75f, 0.0f, 0.0f,
+		0.75f, 0.0f, 0.0f
+	};
+	
+	glEnableClientState(GL_VERTEX_ARRAY);
+	glVertexPointer(3, GL_FLOAT, 0, triangleVertex);
+	glDrawArrays(GL_TRIANGLES, 0, 3);
+	glDisableClientState(GL_VERTEX_ARRAY);
+}
