@@ -3,5 +3,5 @@ Members:</br>
 Bernardino, Radge</br>
 Buama, Marianne</br>
 Cordero, Erin</br>
-Cutaran, Walfred</br>
-**Leader: ** Caspe, Gabriel</br>
+Cutaran, Walfred</br></br>
+Leader: Caspe, Gabriel</br>
