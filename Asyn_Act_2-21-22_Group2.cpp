@@ -26,7 +26,7 @@ int main(int argc, char **argv){
 //Cutaran
 void triangle(){
 	GLfloat triangleVertex[] = {
-		//x		y	   z
+		//x	y      z
 		0.0f, 0.75f, 0.0f,
 		-0.75f, 0.0f, 0.0f,
 		0.75f, 0.0f, 0.0f
