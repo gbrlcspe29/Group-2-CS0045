@@ -54,3 +54,11 @@ void points(){
 	glDrawArrays(GL_POINTS, 0, 4);
 	glDisableClientState(GL_VERTEX_ARRAY);
 }
+//Bernardino
+void display(){
+	glClear(GL_COLOR_BUFFER_BIT);
+	glColor4f(0.16f, 0.72f, 0.08f, 1.0f);
+	triangle();
+	points();
+	glFlush();
+}
